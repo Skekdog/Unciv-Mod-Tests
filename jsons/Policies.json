@@ -1,0 +1,372 @@
+[
+	{
+		"name": "Capitalism",
+		"era": "1939-",
+		"uniques": [
+			"Only available <before adopting [Socialism]>",
+			"Only available <before adopting [Communism]>",
+			"+25% gold in capital"],
+		"policies": [
+			{
+				"name": "Private Property",
+				"uniques": [
+					"+1 Gold per 4 population in all cities"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Highway",
+				"uniques": [
+					"Tile improvement speed +25%"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Profit Motive",
+				"uniques": [
+					"Earn 20% of all units opponent's [Strength] as [Gold] for kills"],
+				"requires": [
+					"Private Property"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Commercial Exchange",
+				"uniques": [
+					"[+2 Gold] from each Trade Route"],
+				"requires": [
+					"Profit Motive"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Capital Accumulation",
+				"uniques": [
+					"Units in cities cost no Maintenance"],
+				"requires": [
+					"Profit Motive"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Entrepreneurship",
+				"uniques": [
+					"[Great Merchant] is earned [33]% faster"],
+				"requires": [
+					"Profit Motive",
+					"Commercial Exchange"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Trade Flows",
+				"uniques": [
+					"Maintenance on roads & railroads reduced by 33%"],
+				"requires": [
+					"Commercial Exchange"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Capitalism Complete",
+				"uniques": [
+					"[+100]% Gold from Great Merchant trade missions"]
+			}
+		]
+	},
+	{
+		"name": "Liberalism",
+		"era": "1939-",
+		"uniques": [
+			"Only available <before adopting [Protectionism]>",
+			"Cost of purchasing items in cities reduced by [15]%"],
+		"policies": [
+			{
+				"name": "Mercantilism",
+				"uniques": [
+					"[+1 Gold, +1 Culture] from each Trade Route"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Guilds",
+				"uniques": [
+					"[+15]% [Production] from every [Industrial Zone]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Maritime Infrastructure",
+				"uniques": [
+					"[+3 Production] from every [Lighthouse]"],
+				"requires": [
+					"Mercantilism"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "The Enlightenment",
+				"uniques": [
+					"[+4 Gold] from every [Commercial Hub]"],
+				"requires": [
+					"Guilds"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Merchant Navy",
+				"uniques": ["[+1 Gold] from [Water] tiles in all coastal cities"],
+				"requires": [
+					"Maritime Infrastructure"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Globalization",
+				"uniques": [
+					"[+4 Gold] from each Trade Route"],
+				"requires": [
+					"Maritime Infrastructure","The Enlightenment"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Social Media",
+				"uniques": [
+					"[+3 Culture] from each Trade Route"],
+				"requires": [
+					"The Enlightenment"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Liberalism Complete",
+				"uniques": [
+					"Cost of acquiring new tiles reduced by 25%"]
+			}
+		]
+	},
+	{
+		"name": "Protectionism",
+		"era": "1939-",
+		"uniques": [
+			"Only available <before adopting [Liberalism]>",
+			"+25% growth in capital"],
+		"policies": [
+			{
+				"name": "Informant",
+				"uniques": [
+					"Notified of new Barbarian encampments"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "National Support",
+				"uniques": [
+					"+[15]% growth in all cities"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Collective Fight",
+				"uniques": [
+					"+25% bonus vs Barbarians"],
+				"requires": [
+					"Informant"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Controlled Demography",
+				"uniques": [
+					"Each city founded increases culture cost of policies 33% less than normal"],
+				"requires": [
+					"National Support"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Citizenship",
+				"uniques": [
+					"+1 happiness for every city connected to capital"],
+				"requires": [
+					"Collective Fight"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "National Sovereignty",
+				"uniques": [
+					"Gold cost of upgrading military units reduced by 33%"],
+				"requires": [
+					"Collective Fight",
+					"Controlled Demography"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "National Academy",
+				"uniques": [
+					"Free Great Person"],
+				"requires": [
+					"Controlled Demography"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Protectionism Complete",
+				"uniques": [
+					"Empire enters golden age"]
+			}
+		]
+	},
+	{
+		"name": "Socialism",
+		"era": "1939-",
+		"uniques": [
+			"Only available <before adopting [Capitalism]>",
+			"[+15]% Production when constructing [Culture] buildings [in all cities]"],
+		"policies": [
+			{
+				"name": "Free Thought",
+				"uniques": [
+					"[+1 Science] from every [Trading Post]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Constitution",
+				"uniques": [
+					"[+2 Culture] from every [Wonder]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Free Speech",
+				"uniques": [
+					"[+20]% [Science] from every [University]"],
+				"requires": [
+					"Free Thought"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Democracy",
+				"uniques": [
+					"Specialists produce half normal unhappiness"],
+				"requires": [
+					"Constitution"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Diplomatic Service",
+				"uniques": [
+					],
+				"requires": [
+					"Free Speech"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Code of Laws",
+				"uniques": [
+					"[33]% Culture cost of adopting new Policies"],
+				"requires": [
+					"Free Speech",
+					"Democracy"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Free Religion",
+				"uniques": [
+					"[Great Artist] is earned [33]% faster"],
+				"requires": [
+					"Democracy"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Socialism Complete",
+				"uniques": [
+					"[+4 Culture] from each Trade Route"]
+			}
+		]
+	},
+	{
+		"name": "Nationalism",
+		"uniques": [
+			"+25% production in capital"],
+		"era": "1939-",
+		"policies": [
+			{
+				"name": "Populism",
+				"uniques": [
+					"[+25]% Strength <for [Wounded] units>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Police State",
+				"uniques": [
+					"[+3 Happiness] from every [Courthouse]",
+					"[+100]% Production when constructing [Courthouse] buildings [in all cities]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Communism",
+				"uniques": [
+					"Only available <before adopting [Capitalism]>",
+					"[+15]% Production when constructing [Buildings] buildings [in all cities]"],
+				"requires": [
+					"Populism"],
+				"row": 2,
+				"column": 2,
+			},
+			{
+				"name": "Fascism",
+				"uniques": [
+					"+15% combat strength for melee units which have another military unit in an adjacent tile"],
+				"requires": [
+					"Police State"],
+				"row": 2,
+				"column": 4,
+			},
+			{
+				"name": "Planned Economy",
+				"uniques": [
+					"[+25]% [Production] from every [Industrial Zone]"],
+				"requires": [
+					"Communism"],
+				"row": 3,
+				"column": 1,
+			},
+			{
+				"name": "Totalitarianism",
+				"uniques": [
+					"+1 Production per 4 population in all cities"],
+				"requires": [
+					"Communism",
+					"Fascism"],
+				"row": 3,
+				"column": 3,
+			},
+			{
+				"name": "Militarism",
+				"uniques": [
+					"Gold cost of purchasing units -33%"],
+				"requires": [
+					"Fascism"],
+				"row": 3,
+				"column": 5,
+			},
+			{
+				"name": "Nationalism Complete",
+				"uniques": [
+					"+[25]% great person generation in all cities"]
+			}
+		]
+	},
+]

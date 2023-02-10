@@ -1,0 +1,2876 @@
+[
+    // Uniques
+	{
+        "name": "Palace",
+        "isNationalWonder": true,
+        "production": 3,
+        "science": 3,
+        "gold": 3,
+        "cityStrength": 2,
+        "culture": 1,
+        "cost": 1,
+        "uniques": ["Indicates the capital city"]
+    },
+    
+    //City Center
+
+	{
+		"name": "City Center",
+		"cost": -1,
+        "cityStrength": 10,
+        "cityHealth": 100,
+	"uniques": [
+            "Unsellable",
+            "Cannot be purchased"],
+	},
+	{
+        "name": "Butcher",
+		"cost": 80,
+        "gold": 3,
+		"specialistSlots": {"Cook": 1},
+        "requiredNearbyImprovedResources": ["Cattle","Sheep","Horses"],
+		"happiness": 1,
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"requiredTech": "Pre-war Economy",
+	},
+	{
+        "name": "Fishmonger",
+		"cost": 710,
+        "gold": 3,
+		"specialistSlots": {"Cook": 1},
+        "requiredNearbyImprovedResources": ["Fish","Turtle","Whales","Crab"],
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"happiness": 1,
+		"requiredTech": "War Effort I",
+	},
+	{
+        "name": "Hunter",
+		"cost": 240,
+        "gold": 2,
+		"specialistSlots": {"Cook": 1},
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+        "requiredNearbyImprovedResources": ["Bison","Deer","Ostrich","Kangaroo"],
+		"requiredTech": "War Economy II",
+	},
+	{
+        "name": "Bakery",
+		"cost": 160,
+        "gold": 2,
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"specialistSlots": {"Cook": 1},
+        "requiredNearbyImprovedResources": ["Wheat"],
+		"requiredTech": "War Economy I",
+	},
+	{
+        "name": "Pastery",
+		"cost": 850,
+        "gold": 2,
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"specialistSlots": {"Cook": 1},
+        "requiredNearbyImprovedResources": ["Cacao"],
+		"requiredTech": "War Effort II",
+	},
+    {
+        "name": "Market",
+		"cost": 40,
+        "gold": 3,
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+        "specialistSlots": {"Merchant": 1},
+        "hurryCostModifier": 25,
+        "percentStatBonus": {"gold": 5},
+    },
+	{
+        "name": "Hotel",
+        "cost": 1250,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+        "percentStatBonus": {"gold": 65},
+        "maintenance": 3,
+        "requiredTech": "Backdrop Of War III",
+    },
+	{
+        "name": "Grocery",
+		"cost": 70,
+        "gold": 2,
+		"food": 1,
+		"specialistSlots": {"Cook": 1},
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"requiredTech": "Pre-war Economy",
+	},
+	{
+        "name": "Candy Shop",
+		"cost": 330,
+        "gold": 3,
+		"happiness": 2,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"requiredTech": "Banking III",
+	},
+	{
+        "name": "Bar",
+		"cost": 640,
+        "gold": 4,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"happiness": 2,
+		"requiredTech": "Globalization",
+	},
+	{
+        "name": "Ice Cream Shop",
+		"cost": 450,
+        "gold": 3,
+		"happiness": 1,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"requiredTech": "War Effort III",
+	},
+	{
+        "name": "Hairdresser",
+		"cost": 650,
+        "gold": 3,
+		"happiness": 1,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"requiredTech": "Backdrop Of War I",
+	},
+	{
+        "name": "Barbershop",
+		"cost": 700,
+        "gold": 3,
+		"happiness": 1,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"requiredTech": "Backdrop Of War II",
+	},
+	{
+        "name": "Taxi Station",
+		"cost": 825,
+        "gold": 3,
+		"happiness": 1,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"requiredTech": "Backdrop Of War III",
+	},
+	{
+        "name": "Post",
+		"cost": 110,
+        "gold": 2,
+		"happiness": 1,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"requiredTech": "War Economy I",
+	},
+	{
+        "name": "Doctor",
+		"cost": 770,
+        "gold": 3,
+		"happiness": 2,
+		"specialistSlots": {"Cook": 1},
+        "requiredBuilding": "City Center",
+		"uniques": [
+            "Only available <if [City Center] is constructed>"],
+		"requiredTech": "Budgetary Cuts II",
+	},
+
+    //Skyline
+
+    {
+        "name": "Skyline",
+        "cost": 54,
+        "gold": 5,
+        "greatPersonPoints": {"gold": 1},
+        "uniques": [
+            "Cost increases by [10] per owned city",
+            "Creates a [Skyline] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Globalization",
+    },
+
+	//Science
+    
+	{
+		"name": "Campus",
+		"cost": 1,
+        "science": 2,
+		"greatPersonPoints": {"science": 1},
+		"uniques": [
+            "Must be next to [Mountain]"
+            "Cost increases by [10] per owned city",
+            "Creates a [Campus] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+		"requiredTech": "Study I",
+	},
+    {
+        "name": "Stonehenge",
+        "cost": 50,
+        "science": 4,
+        "culture": 4,
+        "isWonder": true,
+		"specialistSlots": {"Scientist": 1},
+        "uniqueTo": "United-Kingdom",
+        "requiredBuilding": "Campus",
+        "greatPersonPoints": {"science": 1},
+        "requiredTech": "Study I",
+        "uniques": [
+            "Cost increases by [15] per owned city",
+            "Must be next to [Hill]",
+            "Only available <if [Campus] is constructed>"],
+        "quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+    },
+	{
+		"name": "Observatory",
+		"cost": 150,
+		"science": 3,
+		"maintenance": 3,
+		"specialistSlots": {"Scientist": 1},
+        "requiredBuilding": "Campus",
+		"percentStatBonus": {"science": 30},
+		"uniques": [
+            "Cost increases by [5] per owned city",
+            "Must be next to [Mountain]",
+            "Only available <if [Campus] is constructed>"],
+        "requiredTech": "Study III",
+	},
+
+    //
+
+	{
+		"name": "University",
+		"cost": 1,
+        "science": 2,
+		"greatPersonPoints": {"science": 1},
+		"maintenance": 2,
+		"uniques": [
+            "Cost increases by [10] per owned city",
+            "Creates a [University] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+		"requiredTech": "Education I",
+	},
+	{
+        "name": "Library",
+		"cost": 50,
+        "science": 1,
+		"culture": 1,
+        "requiredBuilding": "University",
+        "maintenance": 1,
+		"uniques": [
+            "Cost increases by [5] per owned city",
+            "[+1 Science] Per [5] Population in this city",
+            "Only available <if [University] is constructed>"],
+        "requiredTech": "Study II",
+    },
+	{
+        "name": "Public School",
+        "science": 2,
+        "culture": 1,
+        "requiredBuilding": "University",
+        "maintenance": 3,
+        "uniques": [
+            "Cost increases by [5] per owned city",
+            "[+1 Science] Per [4] Population in this city",
+            "Only available <if [University] is constructed>"],
+        "requiredTech": "Study V",
+    },
+	{
+        "name": "College",
+		"cost": 50,
+        "science": 3,
+		"culture": 1,
+        "requiredBuilding": "University",
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "requiredTech": "Scientific Rush I",
+		"uniques": [
+            "Cost increases by [5] per owned city",
+            "[+1 Science] Per [3] Population in this city",
+            "Only available <if [Public School] is constructed>"],
+    },
+    {
+        "name": "National College",
+        "cost": 200,
+        "science": 4,
+        "culture": 2,
+        "requiredBuilding": "University",
+        "greatPersonPoints": {"science": 1},
+        "isNationalWonder": true,
+        "percentStatBonus": {"science": 40},
+        "maintenance": 6,
+        "uniques": [
+            "[+1 Science] Per [2] Population in this city",
+            "Cost increases by [10] per owned city",
+            "Only available <if [College] is constructed>"],
+        "requiredTech": "Scientific Rush III"
+    },
+    {
+        "name": "Madrasa",
+		"isNationalWonder": true,
+		"requiredBuilding": "Mosque",
+        "cost": 1050,
+        "science": 4,
+        "culture": 3,
+        "greatPersonPoints": {"science": 1},
+        "maintenance": 2,
+        "uniques": [
+            "[+1 Science] Per [4] Population in this city",
+            "Cost increases by [15] per owned city",
+            "Only available <if [University] is constructed>"],
+		"requiredTech": "Scientific Rush II",
+    },
+    {
+        "name": "Aquarium",
+        "cost": 360,
+        "culture": 4,
+        "happiness": 3,
+        "maintenance": 4,
+        "requiredBuilding": "University",
+		"requiredTech": "Scientific Rush III",
+		"uniques": [
+            "Cost increases by [5] per owned city",
+            "[+1 Science] from [Water resource] tiles in this city",
+            "[+1 Science] from [Atoll] tiles in this city",
+            "Only available <if [University] is constructed>"]
+    },
+    {
+        "name": "University of Sankore",
+        "isWonder": true,
+        "cost": 720,
+        "science": 4,
+        "culture": 3,
+        "maintenance": 5,
+        "requiredBuilding": "University",
+        "greatPersonPoints": {"science": 2},
+		"uniques": [
+            "Cost increases by [15] per owned city",
+            "[+2 Science, +3 Gold] from each Trade Route",
+            "Must be next to [Desert]"
+            "Only available <if [University] is constructed>"],
+		"requiredTech": "Science Supply I",
+        "quote": "'Scholars are the heirs of the prophets, for the prophets did not leave behind a legacy of wealth but that of knowledge.' –Musnad al-Bazzar 10/68"
+    },
+	{
+        "name": "The Great Library",
+		"cost": 630,
+        "culture": 4,
+        "requiredBuilding": "University",
+        "greatPersonPoints": {"science": 3},
+        "isWonder": true,
+        "requiredTech": "Study IV",
+        "uniques": [
+            "Cost increases by [15] per owned city",
+            "Free Technology",
+            "[+1 Science] Per [3] Population in this city",
+            "Only available <if [Library] is constructed>"],
+        "quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+    },
+	{
+        "name": "Oxford University",
+		"cost": 1300,
+        "science": 5,
+        "isWonder": true,
+        "requiredBuilding": "University",
+        "uniqueTo": "United-Kingdom",
+        "greatPersonPoints": {"science": 3},
+        "uniques": [
+            "Cost increases by [15] per owned city",
+            "Free Technology",
+            "Only available <if [University] is constructed>"],
+        "requiredTech": "Scientific Rush I",
+    },
+
+    //
+
+	{
+		"name": "Research Center",
+		"cost": 1,
+        "science": 2,
+        "requiredNearbyImprovedResources": ["Uranium","Mercury"],
+		"greatPersonPoints": {"science": 1},
+		"maintenance": 1,
+		"uniques": [
+            "Cost increases by [10] per owned city",
+            "Creates a [Research Center] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+		"requiredTech": "Atomic Way I",
+	},
+	{
+		"name": "Medical Lab",
+		"maintenance": 3,
+		"specialistSlots": {"Cook": 1},
+        "requiredBuilding": "Research Center",
+		"percentStatBonus": {"food": 20},
+		"requiredTech": "Atomic Way III",
+		"uniques": [
+            "Cost increases by [5] per owned city",
+            "[10]% Food is carried over after population increases [in this city]",
+            "Only available <if [Research Center] is constructed>"],
+	},
+    {
+        "name": "Atomic Project",
+        "isNationalWonder": true,
+		"specialistSlots": {"Scientist": 1},
+        "requiredBuilding": "Research Center",
+        "cost": 2550,
+        "uniques": [
+            "Only available <if [Research Center] is constructed>",
+            "Cost increases by [15] per owned city",
+            "Enables nuclear weapon"],
+		"requiredTech": "Nuclear Fission",
+    },
+    {
+        "name": "Manhattan Project",
+        "isNationalWonder": true,
+		"specialistSlots": {"Scientist": 1},
+        "requiredBuilding": "Research Center",
+        "uniqueTo": "America",
+        "replaces": "Atomic Project",
+        "cost": 6000,
+        "uniques": [
+            "Only available <if [Research Center] is constructed>",
+            "Cost increases by [15] per owned city",
+            "Enables nuclear weapon"],
+		"requiredTech": "Supersonic",
+    },
+
+    //
+    
+    {
+        "name": "Apollo Program",
+        "cost": 4500,
+        "isNationalWonder": true,
+        "uniques": [
+            "Cannot be purchased"],
+        "requiredTech": "Skys the Limit"
+    },
+    {
+        "name": "Spaceport",
+        "isNationalWonder": true,
+        "cost": 1800,
+        "requiredBuilding": "Apollo Program",
+        "uniques": [
+            "Only available <if [Apollo Program] is constructed>",
+            "Creates a [Spaceport] improvement on a specific tile"
+            "Enables construction of Spaceship parts"],
+        "requiredTech": "Skys the Limit",
+    },
+    {
+        "name": "Hubble Space Telescope",
+        "cost": 2160,
+        "isWonder": true,
+        "requiredBuilding": "Apollo Program",
+        "greatPersonPoints": {"science": 1},
+        "uniques": [
+            "Only available <if [Spaceport] is constructed>",
+            "[2] free [Great Scientist] units appear",
+            "+[25]% production when building [Spaceship part] in this city"],
+        "requiredTech": "Future Tech",
+        "quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.'  - Anatole France"
+    },
+	{
+		"name": "Spaceship Factory",
+		"science": 4,
+		"specialistSlots": {"Scientist": 1},
+        "requiredBuilding": "Apollo Program",
+		"cost": 360,
+		"uniques": [
+            "Only available <if [Spaceport] is constructed>",
+            "+[50]% production when building [Spaceship part] in this city"],
+		"requiredTech": "Skys the Limit",
+    },
+
+	//From Space
+
+	{
+        "name": "SS Cockpit",
+        "requiredBuilding": "Spaceship Factory",
+        "requiredTech": "Skys the Limit",
+        "uniques": [
+            "Only available <if [Spaceship Factory] is constructed>",
+            "Spaceship part",
+            "Cannot be purchased"]
+    },
+    {
+        "name": "SS Engine",
+        "requiredBuilding": "Spaceship Factory",
+        "requiredTech": "Skys the Limit",
+        "uniques": [
+            "Only available <if [Spaceship Factory] is constructed>",
+            "Spaceship part",
+            "Cannot be purchased"]
+    },
+    {
+        "name": "SS Stasis Chamber",
+        "requiredBuilding": "Spaceship Factory",
+        "requiredTech": "Skys the Limit",
+        "uniques": [
+            "Only available <if [Spaceship Factory] is constructed>",
+            "Spaceship part",
+            "Cannot be purchased"]
+    },
+    {
+        "name": "SS Booster",
+        "requiredBuilding": "Spaceship Factory",
+        "requiredTech": "Skys the Limit",
+        "uniques": [
+            "Only available <if [Spaceship Factory] is constructed>",
+            "Spaceship part",
+            "Cannot be purchased"]
+    },
+
+    //
+
+    {
+        "name": "Porcelain Tower",
+		"cost": 380,
+        "culture": 2,
+        "greatPersonPoints": {"science": 1},
+        "isWonder": true,
+        "uniqueTo": "Japan",
+        "uniques": [
+            "Free [Great Scientist] appears",
+            "Science gained from research agreements [+50]%"],
+        "requiredTech": "Study III",
+        "quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.'  - James Russell Lowell"
+    },
+
+	// Gold
+    
+    {
+        "name": "Commercial Hub",
+        "cost": 54,
+        "gold": 5,
+        "greatPersonPoints": {"gold": 1},
+        "uniques": [
+            "[+1 Gold] from [River] tiles in this city",
+            "Cost increases by [10] per owned city",
+            "Creates a [Commercial Hub] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Pre-war Economy",
+    },
+	{
+        "name": "Masonry",
+		"cost": 650,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+		"specialistSlots": {"Engineer": 1},
+        "happiness": 1,
+		"requiredTech": "Massive Production III"
+    },
+	{
+        "name": "Sculptor",
+		"cost": 800,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+		"specialistSlots": {"Artist": 1},
+        "happiness": 1,
+		"requiredTech": "Massive Production IV"
+    },
+    {
+        "name": "Bank",
+		"cost": 280,
+        "hurryCostModifier": 15,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+        "percentStatBonus": {"gold": 15},
+        "requiredTech": "War Economy II"
+    },
+    {
+        "name": "Business School",
+		"cost": 1100,
+		"isNationalWonder": true,
+		"specialistSlots": {"Merchant": 1},
+		"greatPersonPoints": {"gold": 3},
+        "hurryCostModifier": 15,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>",
+            "[Great Merchant] is earned [10]% faster",
+            "Free [Great Merchant] appears"],
+        "requiredTech": "Budgetary Cuts I"
+    },
+	{
+        "name": "Ironmongery",
+		"cost": 225,
+        "gold": 1,
+		"production": 1,
+		"specialistSlots": {"Engineer": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Banking I",
+	},
+	{
+        "name": "Spinning of Tissue",
+		"cost": 180,
+        "gold": 2,
+		"production": 1,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "War Economy I",
+	},
+	{
+        "name": "Cover Workshop",
+		"cost": 400,
+        "gold": 3,
+		"happiness": 1,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Banking III",
+	},
+	{
+        "name": "Car Garage",
+		"cost": 130,
+        "gold": 2,
+		"production": 1,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Pre-war Economy",
+	},
+	{
+        "name": "Rendering Workshop",
+		"cost": 440,
+        "gold": 3,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>",
+            "Must have an owned [Forest] within [1] tiles"],
+		"requiredTech": "Budgetary Cuts II",
+	},
+	{
+        "name": "Locksmith",
+		"cost": 80,
+        "gold": 1,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "War Economy II",
+	},
+	{
+        "name": "Dyeing",
+		"cost": 200,
+        "gold": 3,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Banking II",
+	},
+	{
+        "name": "Shoes Shop",
+		"cost": 200,
+        "gold": 3,
+		"happiness": 1,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Banking I",
+	},
+	{
+        "name": "Horse-drawn Carriage",
+		"cost": 440,
+        "gold": 3,
+		"happiness": 1,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Budgetary Cuts II",
+	},
+	{
+        "name": "Knifemaker",
+		"cost": 405,
+        "gold": 3,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "War Effort III",
+	},
+	{
+        "name": "Hat Shop",
+		"cost": 405,
+        "gold": 3,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "War Effort III",
+	},
+	{
+        "name": "Tailoring",
+		"cost": 550,
+        "gold": 3,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Budgetary Cuts II",
+	},
+	{
+        "name": "Cordwainer",
+		"cost": 275,
+        "gold": 3,
+		"happiness": 1,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Banking II",
+	},
+	{
+        "name": "Roadman",
+		"cost": 280,
+        "gold": 2,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>",
+            "Must have an owned [Grassland] within [2] tiles"],
+		"requiredTech": "War Effort I",
+	},
+	{
+        "name": "Casino",
+		"cost": 1280,
+        "gold": 5,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Globalization",
+	},
+	{
+        "name": "Toy Store",
+		"cost": 930,
+        "gold": 4,
+		"happiness": 1,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Backdrop Of War I",
+	},
+	{
+        "name": "Innkeeper",
+		"cost": 600,
+        "gold": 3,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Budgetary Cuts I",
+	},
+	{
+        "name": "Gunsmith",
+		"cost": 480,
+        "gold": 2,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "War Effort II",
+	},
+	{
+        "name": "Launderer",
+		"cost": 250,
+        "gold": 1,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Banking II",
+	},
+	{
+        "name": "Saddler",
+		"cost": 385,
+        "gold": 2,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "War Effort II",
+	},
+	{
+        "name": "Boatman",
+		"cost": 390,
+        "gold": 2,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>",
+            "Must have an owned [Forest] within [1] tiles",
+            "Must have an owned [River] within [1] tiles"],
+		"requiredTech": "Banking III",
+	},
+	{
+        "name": "Insurance",
+		"cost": 900,
+        "gold": 4,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Backdrop Of War III",
+	},
+	{
+        "name": "Tanner",
+		"requiredNearbyImprovedResources": ["Furs"],
+		"cost": 120,
+        "gold": 2,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "War Economy II",
+	},
+	{
+        "name": "Clog Maker",
+		"cost": 315,
+        "gold": 2,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "War Effort III",
+	},
+	{
+        "name": "Gardener",
+		"cost": 550,
+        "gold": 3,
+		"happiness": 1,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>",
+            "Must have an owned [Grassland] within [1] tiles"],
+		"requiredTech": "Budgetary Cuts I",
+	},
+	{
+        "name": "Process Server",
+		"cost": 1200,
+        "gold": 5,
+		"happiness": -1,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Globalization",
+	},
+	{
+        "name": "Watchmaker",
+		"cost": 385,
+        "gold": 4,
+		"happiness": 1,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "War Effort I",
+	},
+	{
+        "name": "Seed Merchant",
+		"cost": 360,
+        "gold": 3,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>",
+            "Must have an owned [Grassland] within [2] tiles"],
+		"requiredTech": "War Effort II",
+	},
+	{
+        "name": "Boilermaking",
+		"cost": 100,
+        "gold": 4,
+		"requiredResource": "Copper",
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "War Economy I",
+	},
+	{
+        "name": "Cartwrights",
+		"cost": 300,
+        "gold": 2,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredTech": "Banking III",
+	},
+	{
+        "name": "Carpenter",
+		"cost": 60,
+        "gold": 3,
+		"specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>",
+            "Must have an owned [Grassland] within [2] tiles"],
+		"requiredTech": "Pre-war Economy",
+	},
+	{
+        "name": "Lace Workshop",
+		"cost": 910,
+        "gold": 3,
+        "requiredBuilding": "Commercial Hub",
+		"uniques": [
+            "Only available <if [Commercial Hub] is constructed>"],
+		"requiredNearbyImprovedResources": ["Silk"],
+		"requiredTech": "Backdrop Of War II",
+	},
+
+    //
+
+	{
+        "name": "Statue of Liberty",
+		"cost": 780,
+        "culture": 2,
+        "isWonder": true,
+        "uniqueTo": "America",
+        "greatPersonPoints": {"production": 2},
+        "uniques": [
+            "+1 Production from specialists",
+            "Free Social Policy"],
+        "requiredTech": "Banking III",
+        "quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!'  - Emma Lazarus"
+    },
+    {
+        "name": "Mint",
+		"cost": 750,
+        "requiredNearbyImprovedResources": ["Gold","Silver"],
+        "hurryCostModifier": 25,
+		"requiredTech": "Backdrop Of War III",
+    },
+    {
+        "name": "Sukiennice",
+		"isNationalWonder": true,
+        "uniqueTo": "Poland",
+        "cost": 750,
+        "gold": 3,
+        "greatPersonPoints": {"gold": 1},
+        "uniques": [
+            "[+1 Gold, +1 Production] from each Trade Route"],
+		"requiredTech": "Pre-war Economy",
+    },
+	{
+        "name": "Big Ben",
+		"cost": 700,
+        "culture": 1,
+        "gold": 4,
+        "greatPersonPoints": {"culture": 2},
+        "isWonder": true,
+        "uniqueTo": "United-Kingdom",
+        "uniques": [
+            "Cost of purchasing items in cities reduced by [15]%"],
+        "requiredTech": "Backdrop Of War I",
+        "quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.'  - Leonard Bernstein"
+    },
+	{
+        "name": "Machu Picchu",
+        "isWonder": true,
+        "cost": 510,
+        "gold": 4,
+		"uniques": 
+            ["[+1 Gold] from every [Commercial Hub]",
+            "[+1 Gold] from every [Industrial Zone]",
+            "Must be next to [Mountain]"],
+		"requiredTech": "Banking III",
+        "quote": "'T...Eagles fly, the turret rounds, and seem to flout the sky; They eye those walls now crumbling in decay, and scare from quiet rest their destined prey.' –Henry David Thoreau"
+    },
+	{
+        "name": "Apadana",
+        "isWonder": true,
+        "cost": 720,
+        "uniques": [
+            "Free [Great Merchant] appears"],
+		"requiredTech": "Budgetary Cuts III",
+        "quote": "'My ancestor Darius made this Apadana, but it was burnt down. By the grace of Ahuramazda, Anahita, and Mithra, I reconstructed this Apadana.' –Artaxerxes II"
+    },
+    {
+        "name": "Colossus",
+        "culture": 1,
+        "gold": 5,
+		"cost": 40,
+        "greatPersonPoints": {"gold": 1},
+        "isWonder": true,
+		"uniques": [
+            "Must be next to [Coast]",
+            "[+1 Gold] from [Water] tiles in this city"],
+		"requiredTech": "Banking I",
+        "quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+    },
+    {
+        "name": "Satrap's Court",
+		"isWonder": true,
+		"cost": 1235,
+        "gold": 3,
+        "happiness": 2,
+        "hurryCostModifier": 15,
+        "percentStatBonus": {"gold": 25},
+		"requiredTech": "Backdrop Of War I",
+    },
+    {
+        "name": "Mausoleum of Halicarnassus",
+        "culture": 1,
+		"cost": 600,
+        "greatPersonPoints": {"gold": 1},
+        "isWonder": true,
+        "uniques": [
+            "Provides a sum of gold each time you spend a Great Person",
+            "[+2 Gold] from [Marble] tiles in this city",
+            "[+2 Gold] from [Stone] tiles in this city"],
+        "requiredTech": "Banking II",
+        "quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+    },
+
+	//Production
+    
+    {
+        "name": "Industrial Zone",
+        "cost": 54,
+        "production": 4,
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 1,
+        "uniques": [
+            "[+1 Production] from [Mine] tiles in this city",
+            "[+1 Production] from [Quarry] tiles in this city",
+            "[+1 Production] from [Sawmill] tiles in this city",
+            "[+1 Production] from [Strategic resource] tiles in this city",
+            "Cost increases by [10] per owned city",
+            "Creates a [Industrial Zone] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Industrialization I",
+    },
+    {
+        "name": "Hansa",
+        "replaces": "Industrial Zone",
+        "uniqueTo": "Germany",
+        "cost": 27,
+        "production": 4,
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 1,
+        "uniques": [
+            "[+1 Production] from [Mine] tiles in this city",
+            "[+1 Production] from [Quarry] tiles in this city",
+            "[+1 Production] from [Lumber Mill] tiles in this city",
+            "[+1 Production] from [Strategic resource] tiles in this city",
+            "Cost increases by [5] per owned city",
+            "Creates a [Hansa] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Industrialization I",
+    },
+	{
+        "name": "Warehouse",
+		"cost": 100,
+        "production": 2,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>"],
+		"requiredTech": "Industrialization I"
+    },
+	{
+        "name": "Workshop",
+		"cost": 100,
+        "maintenance": 2,
+        "production": 1,
+        "specialistSlots": {"Worker": 1},
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>"],
+        "hurryCostModifier": 25,
+        "percentStatBonus": {"production": 5},
+        "requiredTech": "Industrialization III"
+    },
+	{
+        "name": "Stable",
+		"cost": 200,
+        "maintenance": 1,
+        "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Bison"],
+        "resourceBonusStats": {"production": 1},
+        "hurryCostModifier": 25,
+		"requiredResource": "Wheat",
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>",
+            "+[10]% production when building [mounted units] in this city"],
+		"requiredTech": "Industrialization II"
+    },
+	{
+        "name": "Ducal Stable",
+        "replaces": "Stable",
+        "uniqueTo": "Poland",
+        "cost": 300,
+        "maintenance": 1,
+        "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Bison"],
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+2 Gold, +2 Culture] from [Pasture] tiles in this city",
+            "All newly-trained [Mounted] units in this city receive the [Drill I] promotion",
+            "+[15]% production when building [mounted units] in this city"],
+        "requiredTech": "Industrialization II"
+    },
+	{
+        "name": "Sake Factory",
+		"cost": 1300,
+        "maintenance": 1,
+        "uniqueTo": "Japan",
+		"specialistSlots": {"Worker": 1},
+        "requiredNearbyImprovedResources": ["Wine"],
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>"],
+        "hurryCostModifier": 25,
+		"happiness": 4,
+		"cannotBeBuiltWith": "Vodka Factory",
+		"requiredTech": "Budgetary Cuts III",
+    },
+	{
+        "name": "Wine Factory",
+		"cost": 1300,
+        "maintenance": 1,
+        "uniqueTo": "France",
+		"specialistSlots": {"Worker": 1},
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>"],
+        "requiredNearbyImprovedResources": ["Wine"],
+        "resourceBonusStats": {"gold": 4},
+        "hurryCostModifier": 25,
+		"happiness": 1,
+		"requiredTech": "Budgetary Cuts III",
+    },
+	{
+        "name": "Vodka Factory",
+		"cost": 1300,
+        "maintenance": 1,
+        "uniqueTo": "Soviet Union",
+		"specialistSlots": {"Worker": 1},
+        "requiredNearbyImprovedResources": ["Wine"],
+        "resourceBonusStats": {"gold": 1},
+        "hurryCostModifier": 25,
+		"xpForNewUnits": 10,
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>"],
+		"requiredTech": "Budgetary Cuts III",
+    },
+    {
+        "name": "Paper Maker",
+        "hurryCostModifier": 25,
+        "gold": 4,
+		"cost": 340,
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>",
+            "Must have an owned [Forest] within [3] tiles"],
+        "requiredTech": "Banking I",
+    },
+	{
+        "name": "Farrier",
+		"cost": 200,
+        "maintenance": 1,
+        "requiredNearbyImprovedResources": ["Horses"],
+        "hurryCostModifier": 25,
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>",
+            "+[15]% production when building [mounted units] in this city",
+            "Provides [1] [Horses]"],
+		"requiredTech": "Industrialization II"
+    },
+	{
+        "name": "Blacksmith",
+		"cost": 500,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+        "requiredNearbyImprovedResources": ["Iron"],
+        "happiness": 1,
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>"],
+		"requiredTech": "Massive Production II"
+    },
+	{
+        "name": "Forge",
+		"cost": 900,
+        "maintenance": 3,
+		"requiredBuilding": "Blacksmith",
+        "hurryCostModifier": 25,
+        "requiredNearbyImprovedResources": ["Copper","Silver","Gold"],
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>"],
+        "happiness": 2,
+		"requiredTech": "Massive Production V"
+    },
+	{
+        "name": "Metal Spinning",
+		"cost": 550,
+        "gold": 2,
+		"production": 1,
+		"specialistSlots": {"Worker": 1},
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>"],
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "War Effort II",
+	},
+	{
+        "name": "Paint Factory",
+		"cost": 650,
+        "gold": 3,
+		"specialistSlots": {"Worker": 1},
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>"],
+		"requiredNearbyImprovedResources": ["Dyes"],
+		"requiredTech": "Budgetary Cuts I",
+	},
+	{
+        "name": "Cardboard Factory",
+		"cost": 910,
+        "gold": 3,
+		"production": 1,
+		"specialistSlots": {"Worker": 1},
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>",
+            "Must have an owned [Forest] within [1] tiles"],
+		"requiredTech": "Backdrop Of War I",
+	},
+	{
+        "name": "Soap Factory",
+		"cost": 360,
+        "gold": 3,
+		"happiness": 1,
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>"],
+		"requiredTech": "War Effort I",
+	},
+	{
+        "name": "Glassworks",
+		"cost": 650,
+        "gold": 5,
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>",
+            "Must have an owned [Coast] within [2] tiles"],
+		"requiredTech": "Budgetary Cuts I",
+	},
+	{
+        "name": "Butter Factory",
+		"cost": 200,
+        "gold": 2,
+		"specialistSlots": {"Worker": 1},
+        "requiredBuilding": "Industrial Zone",
+		"uniques": [
+            "Only available <if [Industrial Zone] is constructed>"],
+		"requiredNearbyImprovedResources": ["Cattle"],
+		"requiredTech": "Banking I",
+	},
+
+    //
+
+    {
+        "name": "Heavy Industry",
+        "cost": 54,
+        "production": 4,
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 1,
+        "uniques": [
+            "[+1 Production] from [Mine] tiles in this city",
+            "[+1 Production] from [Quarry] tiles in this city",
+            "[+1 Production] from [Lumber Mill] tiles in this city",
+            "[+1 Production] from [Strategic resource] tiles in this city",
+            "Cost increases by [10] per owned city",
+            "Creates a [Heavy Industry] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Heavy Production I",
+    },
+	{
+        "name": "Roller Bearing Factory",
+		"cost": 400,
+        "maintenance": 4,
+        "hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredResource": "Iron",
+		"specialistSlots": {"Worker": 1},
+		"production": 3,
+        "requiredBuilding": "Heavy Industry",
+		"uniques": [
+            "Only available <if [Heavy Industry] is constructed>"],
+		"requiredTech": "Heavy Production I"
+    },
+	{
+        "name": "Factory",
+		"cost": 350,
+        "percentStatBonus": {"production": 10},
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "requiredResource": "Coal",
+		"specialistSlots": {"Worker": 1},
+        "requiredBuilding": "Heavy Industry",
+		"uniques": [
+            "Only available <if [Heavy Industry] is constructed>"],
+        "requiredTech": "Heavy Production III"
+    },
+	{
+        "name": "Lubricant Factory",
+		"cost": 550,
+        "maintenance": 3,
+        "hurryCostModifier": 25,
+		"production": 4,
+		"specialistSlots": {"Worker": 1},
+        "requiredBuilding": "Heavy Industry",
+		"uniques": [
+            "Only available <if [Heavy Industry] is constructed>"],
+		"requiredTech": "Heavy Production I"
+    },
+	{
+        "name": "Detailed Factory",
+		"cost": 1200,
+        "maintenance": 4,
+        "hurryCostModifier": 25,
+		"production": 3,
+		"requiredResource": "Cobalt",
+		"specialistSlots": {"Worker": 1},
+        "requiredBuilding": "Heavy Industry",
+		"uniques": [
+            "Only available <if [Heavy Industry] is constructed>"],
+		"requiredTech": "Heavy Production I"
+    },
+	{
+        "name": "Crushing Factory",
+		"cost": 1400,
+        "maintenance": 4,
+        "hurryCostModifier": 25,
+		"production": 3,
+		"specialistSlots": {"Worker": 1},
+        "requiredBuilding": "Heavy Industry",
+		"uniques": [
+            "Only available <if [Heavy Industry] is constructed>"],
+		"requiredTech": "Heavy Production I"
+    },
+	{
+        "name": "I.G. Farben Rubber Factory",
+		"cost": 1000,
+		"uniqueTo": "Germany",
+        "maintenance": 4,
+        "hurryCostModifier": 25,
+		"production": 3,
+		"specialistSlots": {"Worker": 1},
+		"uniques": ["Provides [2] [Rubber]"],
+		"requiredTech": "Great Improvement II"
+    },
+    
+    //
+
+	{
+        "name": "Blast Furnace",
+		"cost": 450,
+        "maintenance": 7,
+        "hurryCostModifier": 25,
+		"specialistSlots": {"Worker": 1},
+		"requiredNearbyImprovedResources": ["Iron","Coal"],
+		"production": 5,
+        "uniques": [
+            "Cost increases by [10] per owned city",
+            "Creates a [Blast Furnace] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+		"requiredTech": "Great Metallurgy I"
+    },
+	{
+        "name": "Ironworks",
+		"cost": 1500,
+        "production": 8,
+        "maintenance": 6,
+		"greatPersonPoints": {"production": 1},
+		"uniques": ["Free [Great Engineer] appears"],
+        "isNationalWonder": true,
+		"requiredResource": "Iron",
+		"specialistSlots": {"Worker": 1},
+        "requiredBuilding": "Blast Furnace",
+		"uniques": [
+            "Only available <if [Blast Furnace] is constructed>"],
+        "requiredTech": "Great Metallurgy I"
+    },
+
+    //
+
+	{
+        "name": "Refinery",
+		"cost": 1000,
+        "maintenance": 3,
+        "hurryCostModifier": 25,
+		"production": 3,
+		"specialistSlots": {"Worker": 1},
+        "uniques": [
+            "Cost increases by [10] per owned city",
+            "Creates a [Refinery] improvement on a specific tile",
+            "Provides [1] [Oil]",
+            "Unsellable",
+            "Cannot be purchased"],
+		"requiredTech": "Great Improvement I"
+    },
+	{
+        "name": "I.G. Farben Oil Factory",
+		"uniqueTo": "Germany",
+		"cost": 1000,
+        "maintenance": 4,
+        "hurryCostModifier": 25,
+        "requiredNearbyImprovedResources": ["Coal"],
+		"production": 3,
+		"specialistSlots": {"Worker": 1},
+        "requiredBuilding": "Refinery",
+		"uniques": [
+            "Only available <if [Refinery] is constructed>",
+            "Provides [1] [Oil]"],
+		"requiredTech": "Great Improvement I"
+    },
+
+    //
+
+    {
+        "name": "Dam",
+        "cost": 54,
+        "production": 4,
+        "maintenance": 1,
+        "uniques": [
+            "Creates a [Dam] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Mega-Factory IV",
+    },
+	{
+        "name": "Train Station",
+		"cost": 1200,
+        "maintenance": 5,
+        "hurryCostModifier": 25,
+		"production": 4,
+        "happiness": 1,
+		"requiredResource": "Stone",
+        "uniques": [
+            "Creates a [Train Station] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+		"requiredTech": "Heavy Production II"
+    },
+
+    //
+
+	{
+        "name": "Chichen Itza",
+        "isWonder": true,
+        "cost": 240,
+		"requiredTech": "Massive Production III",
+		"uniques": [
+            "[+2 Production, +2 Culture, +1 Gold] from [Jungle] tiles in this city"],
+        "quote": "'The Great Ballcourt is also very impressive. I would like to have seen them play a game, although it sounds like the end was pretty violent. I think it was safer to be a spectator.' –Isla Deb"
+    },
+	{
+        "name": "Ruhr Valley",
+        "isWonder": true,
+        "uniqueTo": "Germany",
+        "cost": 720,
+        "percentStatBonus": {"production": 20},
+        "uniques": [
+            "[+1 Production] from [Mine] tiles in this city",
+            "[+1 Production] from [Quarry] tiles in this city",
+            "Must be on [River]"],
+		"requiredTech": "Heavy Production I",
+        "quote": "'The industrial heart of Germany practically stopped beating. Hardly anyone worked, hardly anything ran. The population of the Ruhr area...had to be supported by the rest of the country.' –Adam Fergusson"
+    },
+	{
+        "name": "Pyramids",
+        "isWonder": true,
+        "cost": 300,
+        "culture": 2,
+        "uniques": [
+            "Free [Worker] appears",
+            "Worker construction increased 25%",
+            "Must be on [Desert]"],
+		"requiredTech": "Massive Production IV",
+        "quote": "'From the height of these pyramids, forty centuries look down on us.' –Napolean Boneparte"
+    },
+
+	//Food
+    
+    {
+        "name": "Neighborhood",
+        "cost": 54,
+        "uniques": [
+            "[10]% Food is carried over after population increases [in this city]",
+            "Cost increases by [10] per owned city",
+    //        "Creates a [Neighborhood] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Mechanization I",
+    },
+	{
+        "name": "Coffee House",
+        "cost": 350,
+        "food": 2,
+        "hurryCostModifier": 25,
+        "maintenance": 2,
+        "percentStatBonus": {"food": 5},
+		"requiredResource": "Cocoa",
+        "requiredBuilding": "Neighborhood",
+		"uniques": [
+            "Only available <if [Neighborhood] is constructed>",
+            "+[2]% great person generation in all cities"],
+        "requiredTech": "Farming Revolution V"
+    },
+	{
+        "name": "Public Garden",
+        "cost": 120,
+		"percentStatBonus": {"food": 15},
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredBuilding": "Neighborhood",
+		"uniques": [
+            "Only available <if [Neighborhood] is constructed>",
+            "Must have an owned [River] within [2] tiles"],
+        "requiredTech": "Irrigation V"
+    },
+
+    //
+
+	{
+        "name": "Aqueduct",
+		"cost": 250,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+		"requiredResource": "Marble",
+        "uniques": [
+            "[15]% Food is carried over after population increases [in this city]",
+            "Must have an owned [River] within [4] tiles",
+            "Creates a [Aqueduct] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Sanitation I"
+    },
+
+    //
+
+	{
+        "name": "Sugar Factory",
+		"cost": 300,
+        "maintenance": 6,
+		"requiredNearbyImprovedResources": ["Sugar Cane"],
+        "hurryCostModifier": 25,
+		"uniques": [
+            "Provides [1] [Sugar]"],
+    },
+	{
+        "name": "Windmill",
+		"cost": 80,
+        "food": 5,
+        "hurryCostModifier": 25,
+        "maintenance": 2,
+		"requiredResource": "Wheat",
+        "uniques": [
+            "Must not be on [Hill]"],
+        "requiredTech": "War Stock III",
+    },
+	{
+        "name": "Granary",
+		"cost": 80,
+        "food": 2,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+    },
+	{
+        "name": "Water Mill",
+        "cost": 200,
+        "food": 2,
+        "production": 1,
+        "hurryCostModifier": 25,
+        "maintenance": 2,
+        "requiredTech": "Irrigation IV",
+        "uniques": [
+            "Must have an owned [River] within [2] tiles"],
+    },
+	{
+        "name": "Lighthouse",
+		"cost": 100,
+        "hurryCostModifier": 25,
+        "maintenance": 2,
+        "resourceBonusStats": {"food": 1},
+		"requiredResource": "Stone",
+        "uniques": [
+            "Can only be built in coastal cities",
+            "[+1 Food] from [Fish] tiles in this city",
+            "[+1 Food] from [Coast] tiles in this city",
+            "[+1 Food] from [Ocean] tiles in this city"],
+        "requiredTech": "Mechanization II"
+    },
+
+    //
+
+	{
+        "name": "Floating Gardens",
+        "replaces": "Water Mill",
+		"isWonder": true,
+        "cost": 390,
+        "food": 2,
+        "production": 1,
+		"requiredResource": "Stone",
+        "uniques": [
+            "[+2 Food] from [Lakes] tiles in this city",
+            "Must have an owned [River] within [2] tiles"],
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "percentStatBonus": {"food": 15},
+        "requiredTech": "Farming Revolution III"
+    },
+	{
+        "name": "Petra",
+		"cost": 975,
+        "isWonder": true,
+        "culture": 4,
+		"requiredResource": "Granite",
+        "uniques": [
+            "[+1 Food] from [Desert] tiles in this city",
+            "Must be next to [Desert]",],
+        "requiredTech": "Irrigation II",
+        "quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
+    },
+	{
+        "name": "The Lost Temple",
+        "culture": 5,
+        "isWonder": true,
+        "cost": 420,
+        "greatPersonPoints": {"culture": 1},
+        "uniques": [
+            "[+10]% [Food] from every [Granary]"],
+        "requiredTech": "Irrigation III",
+        "quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+    },
+	{
+        "name": "Huey Teocalli",
+        "isWonder": true,
+        "cost": 180,
+        "uniques": [
+            "[+1 Happiness] from [Lakes] tiles in this city",
+            "[+1 Food, +1 Production] from every [Lakes]",
+            "Must be next to [Lakes]"],
+		"requiredTech": "War Stock II",
+        "quote": "'But the wrath of Huizlopochtli was great, and as the sacrifice passed each of the four rooms dedicated to the sun god, the sun disappeared or reappeared in the sky.' –Fray Diego Durán"
+    },
+	{
+        "name": "Temple of Artemis",
+        "isWonder": true,
+        "cost": 180,
+        "food": 4,
+		"requiredNearbyImprovedResources": ["Deer","Furs","Ivory","Truffles","Honey"],
+		"requiredTech": "Farming Revolution II",
+        "uniques": [
+            "[+1 Happiness] from [Camp] tiles in this city",
+            "[+1 Happiness] from [Pasture] tiles in this city",
+            "[+1 Happiness] from [Plantation] tiles in this city",
+            "[10]% Food is carried over after population increases [in this city]"],
+        "quote": "'When I saw the house of Artemis that mounted to the clouds, those other marvels lost their brilliancy, and I said, 'Lo, apart from Olympus, the Sun never looked on aught so grand.' –Antipater of Sidon"
+    },
+
+	//Culture
+
+	{
+		"name": "Holy Site",
+		"cost": 54,
+		"culture": 2,
+		"maintenance": 1,
+		"uniques": [
+            "[+1 Culture] from [Mountain] tiles in this city",
+            "[+1 Culture] from [Forest] tiles in this city",
+		    "Cost increases by [10] per owned city",
+            "Creates a [Holy Site] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+		"requiredTech": "Theology I",
+	},
+	{
+		"name": "Lavra",
+		"replaces": "Holy Site",
+        "uniqueTo": "Soviet Union",
+		"cost": 27,
+        "culture": 4,
+		"greatPersonPoints": {"culture": 2},
+		"maintenance": 1,
+		"uniques": [
+            "Culture and Gold costs of acquiring new tiles reduced by 25% in this city",
+		    "[+1 Culture] from [Mountain] tiles in this city",
+            "[+1 Culture] from [Forest] tiles in this city",
+            "Cost increases by [5] per owned city",
+            "Creates a [Lavra] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+		"requiredTech": "Theology I",
+	},
+	{
+        "name": "Mosque",
+        "cost": 315,
+        "culture": 4,
+        "happiness": 1,
+		"specialistSlots": {"Artist": 1},
+        "requiredBuilding": "Holy Site",
+		"uniques": [
+            "Only available <if [Holy Site] is constructed>"],
+        "requiredTech": "Sacred Culture II",
+    },
+    {
+        "name": "Great Mosque of Djenne",
+        "culture": 6,
+		"cost": 900,
+        "isWonder": true,
+		"providesFreeBuilding": "Mosque",
+		"requiredTech": "Theology II",
+        "requiredBuilding": "Holy Site",
+		"uniques": [
+            "Only available <if [Holy Site] is constructed>"],
+        "quote": "With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.  – Thomas Chalmers"
+    },
+    {
+        "name": "Mud Pyramid Mosque",
+		"isWonder": true,
+        "culture": 6,
+		"cost": 900,
+        "providesFreeBuilding": "Mosque",
+        "requiredBuilding": "Holy Site",
+		"uniques": [
+            "Only available <if [Holy Site] is constructed>"],
+		"requiredTech": "Theology II",
+    },
+    {
+        "name": "Shrine",
+        "cost": 70,
+        "culture": 1,
+        "maintenance": 1,
+		"specialistSlots": {"Artist": 1},
+        "requiredBuilding": "Holy Site",
+		"uniques": [
+            "Only available <if [Holy Site] is constructed>",
+            "[5]% Food is carried over after population increases [in this city]"],
+    },
+	{
+        "name": "Monastery",
+		"cost": 120,
+		"cityStrength": 5,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+		"specialistSlots": {"Artist": 1},
+        "requiredBuilding": "Holy Site",
+		"uniques": [
+            "Only available <if [Holy Site] is constructed>"],
+        "requiredTech": "Sacred Culture III",
+    },
+	{
+        "name": "Grand Monastery",
+		"cost": 350,
+        "culture": 8,
+        "isNationalWonder": true,
+        "requiredBuildingInAllCities": "Monastery",
+		"specialistSlots": {"Artist": 1},
+        "requiredBuilding": "Holy Site",
+		"uniques": [
+            "Only available <if [Holy Site] is constructed>"],
+        "requiredTech": "Theology III",
+    },
+    {
+        "name": "Stele",
+		"isWonder": true,
+        "culture": 4,
+        "cost": 315,
+        "hurryCostModifier": 40,
+        "maintenance": 1,
+		"specialistSlots": {"Artist": 1},
+        "requiredBuilding": "Holy Site",
+		"uniques": [
+            "Only available <if [Holy Site] is constructed>"],
+		"requiredTech": "Sacred Culture IV",
+    },
+    {
+        "name": "Temple",
+        "cost": 150,
+        "culture": 2,
+        "maintenance": 2,
+        "requiredBuilding": "Holy Site",
+		"uniques": [
+            "Only available <if [Holy Site] is constructed>"],
+		"requiredTech": "Sacred Culture II",
+        "specialistSlots": {"Artist": 1},
+    },
+	{
+        "name": "Hagia Sophia",
+		"cost": 575,
+        "culture": 8,
+        "greatPersonPoints": {"culture": 1},
+        "isWonder": true,
+        "providesFreeBuilding": "Grand Monastery",
+        "requiredBuilding": "Holy Site",
+		"uniques": [
+            "Only available <if [Holy Site] is constructed>",
+            "Free [Great Artist] appears"],
+        "requiredTech": "Theology III",
+        "quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty'  - Procopius, De Aedificis"
+    },
+	{
+        "name": "Notre Dame",
+		"cost": 1575,
+        "culture": 3,
+        "happiness": 10,
+        "greatPersonPoints": {"culture": 1},
+        "isWonder": true,
+        "uniqueTo": "France",
+        "requiredBuilding": "Holy Site",
+		"uniques": [
+            "Only available <if [Holy Site] is constructed>"],
+        "requiredTech": "New World Order II",
+        "quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.'  - Victor Hugo"
+    },
+	{
+        "name": "Sixtine Chapel",
+		"cost": 2240,
+        "culture": 1,
+        "isWonder": true,
+        "uniqueTo": "France",
+        "greatPersonPoints": {"culture": 3},
+        "requiredBuilding": "Holy Site",
+		"uniques": [
+            "Only available <if [Holy Site] is constructed>",
+            "Culture in all cities increased by 25%"],
+        "requiredTech": "New World Order III",
+        "quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+    },
+	{
+        "name": "Taj Mahal",
+		"cost": 360,
+        "culture": 1,
+        "happiness": 4,
+        "greatPersonPoints": {"culture": 1},
+        "isWonder": true,
+        "requiredBuilding": "Holy Site",
+		"uniques": [
+            "Only available <if [Holy Site] is constructed>",
+            "Empire enters golden age"],
+        "requiredTech": "Theology III",
+        "quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.'  - Rabindranath Tagore"
+    },
+	{
+        "name": "St. Basil's Cathedral",
+        "isWonder": true,
+        "uniqueTo": "Soviet Union",
+        "cost": 1035,
+        "percentStatBonus": {"culture": 100},
+        "requiredBuilding": "Lavra",
+		"uniques": [
+            "Only available <if [Lavra] is constructed>",
+            "[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles in this city"],
+		"requiredTech": "Propaganda I",
+        "quote": "'One had a twisted design, red, on a green ground; another, all prickly angles, yellow and black; a third was ornamented with scales of blue and crimson; a fourth was in quarters like a melon.' –Katharine Blanche Guthrie"
+    },
+
+    //
+
+    {
+        "name": "Theater Square",
+        "cost": 54,
+        "culture": 3,
+        "greatPersonPoints": {"culture": 1},
+        "maintenance": 1,
+        "uniques": [
+            "[+1 Culture] from every [Wonder]",
+            "Cost increases by [10] per owned city",
+            "Creates a [Theater Square] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Patriot I",
+    },
+    {
+        "name": "Opera House",
+		"cost": 600,
+        "culture": 2,
+        "hurryCostModifier": 10,
+        "maintenance": 2,
+		"specialistSlots": {"Artist": 1},
+        "requiredBuilding": "Theater Square",
+		"uniques": [
+            "Only available <if [Theater Square] is constructed>"],
+        "requiredTech": "Propaganda IV"
+    },
+	{
+        "name": "Grand Opera",
+		"cost": 910,
+        "culture": 5,
+        "specialistSlots": {"Artist": 1},
+		"isNationalWonder": true,
+        "hurryCostModifier": 10,
+        "requiredBuildingInAllCities": "Opera House",
+        "maintenance": 2,
+        "requiredBuilding": "Theater Square",
+		"uniques": [
+            "Only available <if [Theater Square] is constructed>"],
+        "requiredTech": "Propaganda V"
+    },
+	{
+        "name": "Theatre",
+        "cost": 350,
+        "happiness": 2,
+        "hurryCostModifier": 10,
+        "maintenance": 2,
+		"specialistSlots": {"Artist": 1},
+        "requiredBuilding": "Theater Square",
+		"uniques": [
+            "Only available <if [Theater Square] is constructed>"],
+        "requiredTech": "Sacred Culture IV"
+    },
+	{
+        "name": "Bolshoi Theatre",
+        "isWonder": true,
+        "uniqueTo": "Soviet Union",
+        "cost": 315,
+        "greatPersonPoints": {"culture": 4},
+		"requiredTech": "Patriot II",
+        "providesFreeBuilding": "Theatre",
+        "requiredBuilding": "Theater Square",
+		"uniques": [
+            "Only available <if [Theater Square] is constructed>",
+            "Free Social Policy",
+            "Free Social Policy",
+            "Must be on [River]"],
+        "quote": "'Bolshoi Ballet is a universe of the imagination, a place of magic and enchantment, beauty and romance, its many worlds vibrate with graceful dancers, glorious music, and sumptuous costumes.' –Trudy Garfunkel"
+    },
+    {
+        "name": "War Museum",
+		"cost": 960,
+        "culture": 3,
+        "specialistSlots": {"Artist": 1},
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "requiredBuilding": "Theater Square",
+		"uniques": [
+            "Only available <if [Theater Square] is constructed>"],
+        "requiredTech": "New World Order III",
+    },
+	{
+        "name": "Art Museum",
+		"cost": 560,
+        "culture": 4,
+        "specialistSlots": {"Artist": 1},
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "requiredBuilding": "Theater Square",
+		"uniques": [
+            "Only available <if [Theater Square] is constructed>"],
+        "requiredTech": "Sacred Culture V",
+    },
+	{
+        "name": "National Visitor's Center",
+		"cost": 1125,
+        "isNationalWonder": true,
+        "percentStatBonus": {"culture": 120},
+        "requiredBuildingInAllCities": "Hotel",
+        "requiredBuilding": "Theater Square",
+		"uniques": [
+            "Only available <if [Theater Square] is constructed>"],
+        "requiredTech": "New World Order II",
+    },
+	{
+        "name": "Amphitheater",
+        "cost": 495,
+        "culture": 2,
+        "specialistSlots": {"Artist": 1},
+        "greatPersonPoints": {"culture": 1},
+        "maintenance": 1,
+        "requiredBuilding": "Theater Square",
+		"uniques": [
+            "Only available <if [Theater Square] is constructed>"],
+		"requiredTech": "Propaganda I",
+    },
+    {
+        "name": "Film Studio",
+        "cost": 825,
+        "culture": 4,
+        "percentStatBonus": {"culture": 100},
+		"specialistSlots": {"Artist": 1},
+        "greatPersonPoints": {"culture": 2},
+        "maintenance": 3,
+        "requiredBuilding": "Theater Square",
+		"uniques": [
+            "Only available <if [Theater Square] is constructed>"],
+		"requiredTech": "Propaganda III",
+    },
+	{
+        "name": "Broadway",
+        "isWonder": true,
+        "uniqueTo": "America",
+        "cost": 1330,
+        "percentStatBonus": {"culture": 20},
+        "greatPersonPoints": {"culture": 5},
+		"requiredTech": "New World Order I",
+        "providesFreeBuilding": "Film Studio",
+        "requiredBuilding": "Theater Square",
+		"uniques": [
+            "Only available <if [Theater Square] is constructed>",
+            "Free Social Policy",
+            "Must not be on [Hill]"],
+        "quote": "'There's no business like show business.' –Irving Berlin, Annie Get Your Gun"
+    },
+	{
+        "name": "Sydney Opera House",
+		"cost": 1800,
+        "isWonder": true,
+        "greatPersonPoints": {"culture": 2},
+        "percentStatBonus": {"culture": 50},
+        "requiredBuilding": "Theater Square",
+		"uniques": [
+            "Only available <if [Theater Square] is constructed>",
+            "Free Social Policy",
+            "Can only be built in coastal cities"],
+        "requiredTech": "New World Order II",
+        "quote": "'Those who lose dreaming are lost.'  - Australian Aboriginal saying"
+    },
+    {
+        "name": "The Louvre",
+		"cost": 1400,
+        "culture": 5,
+        "happiness": 4,
+        "isWonder": true,
+        "uniqueTo": "France",
+        "requiredBuilding": "Theater Square",
+		"uniques": [
+            "Only available <if [Theater Square] is constructed>",
+            "2 free Great Artists appear"],
+        "requiredTech": "Sacred Culture V",
+        "quote": "'Every genuine work of art has as much reason for being as the earth and the sun'  - Ralph Waldo Emerson"
+    },
+
+    //
+
+    {
+        "name": "Entertainment Complex",
+        "cost": 54,
+        "happiness": 1,
+        "maintenance": 1,
+        "uniques": [
+            "Cost increases by [10] per owned city",
+            "Creates a [Entertainment Complex] improvement on a specific tile",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Propaganda I",
+    },
+	{
+        "name": "Colosseum",
+        "cost": 60,
+        "maintenance": 1,
+        "happiness": 2,
+        "hurryCostModifier": 25,
+        "uniqueTo": "Italia",
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "Entertainment Complex",
+		"uniques": [
+            "Only available <if [Entertainment Complex] is constructed>"],
+        "requiredTech": "Propaganda II"
+    },
+	{
+        "name": "Circus Maximus",
+        "cost": 225,
+        "happiness": 5,
+        "culture": 1,
+        "isNationalWonder": true,
+        "requiredBuildingInAllCities": "Colosseum",
+        "uniqueTo": "Italia",
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "Entertainment Complex",
+		"uniques": [
+            "Only available <if [Entertainment Complex] is constructed>"],
+        "requiredTech": "Propaganda III"
+    },
+    {
+        "name": "Stadium",
+        "cost": 640,
+        "happiness": 4,
+        "maintenance": 2,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "Entertainment Complex",
+		"uniques": [
+            "Only available <if [Entertainment Complex] is constructed>"],
+        "requiredTech": "New World Order III",
+    },
+	{
+        "name": "Circus",
+        "cost": 400,
+        "requiredNearbyImprovedResources": ["Ivory","Horses"],
+        "happiness": 2,
+        "hurryCostModifier": 25,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "Entertainment Complex",
+		"uniques": [
+            "Only available <if [Entertainment Complex] is constructed>"],
+        "requiredTech": "Propaganda IV"
+    },
+    {
+        "name": "Arena",
+        "cost": 660,
+        "happiness": 1,
+        "culture": 1,
+        "maintenance": 1,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "Entertainment Complex",
+		"uniques": [
+            "Only available <if [Entertainment Complex] is constructed>"],
+		"requiredTech": "Propaganda III",
+    },
+    {
+        "name": "Ferris Wheel",
+        "cost": 910,
+        "culture": 4,
+        "happiness": 2,
+        "maintenance": 1,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "Entertainment Complex",
+		"uniques": [
+            "Only available <if [Entertainment Complex] is constructed>"],
+		"requiredTech": "Propaganda V",
+    },
+    {
+        "name": "Bath",
+		"uniqueTo": "Italia",
+        "cost": 70,
+        "happiness": 1,
+        "maintenance": 1,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "Entertainment Complex",
+		"uniques": [
+            "Only available <if [Entertainment Complex] is constructed>",
+            "[+1 Happiness] from [Geothermal Fissure] tiles in this city",
+            "[5]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Propaganda II",
+    },
+    {
+        "name": "Thermal Bath",
+		"uniqueTo": "Poland",
+        "cost": 210,
+        "happiness": 3,
+        "production": 2,
+        "maintenance": 2,
+		"specialistSlots": {"Entertainment Staff": 1},
+		"requiredTech": "Propaganda III",
+        "requiredBuilding": "Entertainment Complex",
+		"uniques": [
+            "Only available <if [Entertainment Complex] is constructed>",
+            "[+2 Happiness, +3 Culture] from [Geothermal Fissure] tiles in this city"],
+    },
+    {
+        "name": "Aquatics Center",
+        "cost": 910,
+        "culture": 6,
+        "happiness": 4,
+        "maintenance": 3,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "Entertainment Complex",
+		"uniques": [
+            "Only available <if [Entertainment Complex] is constructed>"],
+		"requiredTech": "Propaganda V",
+    },
+	{
+        "name": "Great Bath",
+        "isWonder": true,
+        "cost": 840,
+        "happiness": 1,
+		"specialistSlots": {"Entertainment Staff": 1},
+        "requiredBuilding": "Entertainment Complex",
+		"uniques": [
+            "Only available <if [Entertainment Complex] is constructed>",
+            "[+1 Culture] from [Flood plains] tiles in this city",
+            "[10]% Food is carried over after population increases [in this city]",
+            "Must be next to [Flood plains]"],
+		"requiredTech": "Propaganda V",
+        "quote": "'Yet in this captious and intenible sieve, I still pour in the waters of my love. And lack not to lose still: thus, Indian-like, religious in mine error, I adore. The sun, that looks upon his worshipper, but knows of him no more.' - William Shakespeare"
+    },
+
+    //
+
+	{
+        "name": "Great War Monument",
+        "culture": 2,
+        "cost": 35,
+        "hurryCostModifier": 40,
+        "maintenance": 1,
+    },
+	{
+        "name": "Memorial Aux Poillus",
+        "culture": 3,
+        "cost": 40,
+        "hurryCostModifier": 40,
+        "maintenance": 1,
+		"uniqueTo": "France",
+		"replaces": "Great War Monument",
+    },
+    {
+        "name": "Fire Station",
+		"cost": 120,
+		"maintenance": 2,
+        "happiness": 2,
+        "hurryCostModifier": 25,
+        "requiredTech": "Sacred Culture I"
+    },
+    {
+        "name": "Subway",
+		"cost": 175,
+		"gold": 2,
+        "happiness": 3,
+        "hurryCostModifier": 25,
+        "requiredTech": "Patriot III"
+    },
+
+    //
+
+    {
+        "name": "Parthenon",
+		"cost": 80,
+        "culture": 6,
+        "isWonder": true,
+        "requiredTech": "Patriot I",
+        "quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
+    },
+	{
+        "name": "Alhambra",
+		"cost": 1200,
+        "culture": 4,
+        "greatPersonPoints": {"culture": 1},
+        "isWonder": true,
+        "providesFreeBuilding": "Grand Monastery",
+        "percentStatBonus": {"culture": 20},
+        "requiredTech": "Sacred Culture III",
+        "quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.'  - Joseph Addison"
+    },
+	{
+        "name": "Angkor Wat",
+		"cost": 990,
+        "culture": 4,
+        "greatPersonPoints": {"culture": 1},
+        "isWonder": true,
+        "uniques": [
+            "Cost of acquiring new tiles reduced by 25%"],
+        "requiredTech": "Propaganda III",
+        "quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
+    },
+	{
+        "name": "Mortician",
+        "cost": 560,
+		"maintenance": 1,
+        "happiness": 2,
+        "hurryCostModifier": 25,
+        "requiredTech": "New World Order I"
+    },
+	{
+        "name": "Hospital",
+        "cost": 700,
+        "happiness": 3,
+        "maintenance": 2,
+        "hurryCostModifier": 0,
+        "requiredTech": "Phylosophy I"
+    },
+	{
+        "name": "Broadcast Tower",
+		"cost": 500,
+        "culture": 3,
+        "percentStatBonus": {"culture": 33},
+        "maintenance": 2,
+        "requiredTech": "Propaganda II",
+    },
+	{
+        "name": "CN Tower",
+        "isWonder": true,
+        "uniques": [
+            "+1 population in each city"],
+        "culture": 1,
+        "cost": 1350,
+        "greatPersonPoints": {"production": 1},
+        "providesFreeBuilding": "Broadcast Tower",
+        "requiredTech": "New World Order II"
+    },
+	{
+        "name": "Forbidden Palace",
+		"cost": 500,
+        "culture": 1,
+        "isWonder": true,
+        "greatPersonPoints": {"culture": 1},
+        "uniques": [
+            "Unhappiness from population decreased by 10%"],
+        "requiredTech": "Patriot III",
+        "quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
+    },
+	{
+        "name": "Leaning Tower of Pisa",
+		"cost": 600,
+        "culture": 1,
+        "isWonder": true,
+        "uniqueTo": "Italia",
+        "greatPersonPoints": {"culture": 1},
+        "uniques": [
+            "+[25]% great person generation in all cities","Free Great Person"],
+        "requiredTech": "Patriot III",
+        "quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
+    },
+    {
+        "name": "Hermitage",
+		"cost": 110,
+        "percentStatBonus": {"culture": 25},
+        "culture": 4,
+        "isWonder": true,
+        "requiredTech": "Patriot II",
+    },
+	{
+        "name": "Eiffel Tower",
+		"cost": 350,
+        "culture": 4,
+        "happiness": 5,
+        "percentStatBonus": {"culture":100},
+        "greatPersonPoints": {"gold": 2},
+        "isWonder": true,
+        "uniqueTo": "France",
+        "requiredTech": "Sacred Culture II",
+        "quote": "'We live only to discover beauty, all else is a form of waiting'  - Kahlil Gibran"
+    },
+	{
+        "name": "Cristo Redentor",
+		"cost": 1890,
+        "culture": 5,
+        "isWonder": true,
+        "greatPersonPoints": {"culture": 2},
+        "uniques": [
+            "Culture cost of adopting new Policies reduced by 20%"],
+        "requiredTech": "New World Order I",
+        "quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.'  - New Testament, Matthew 11:28"
+    },
+    {
+        "name": "Broadcast Center",
+        "cost": 840,
+        "culture": 4,
+        "greatPersonPoints": {"culture": 2},
+        "maintenance": 3,
+		"requiredTech": "Propaganda IV",
+    },
+	{
+        "name": "Golden Gate Bridge",
+        "isWonder": true,
+        "uniqueTo": "America",
+        "cost": 1610,
+        "happiness": 3,
+        "uniques": [
+            "+2 Culture from all tiles in this city",
+            "Must be next to [Coast]"],
+		"requiredTech": "New World Order I",
+        "quote": "'Thus, the sculpture serves to give people one thought--'Everything is in God's hands.'' –Sergey Semenov"
+    },
+	{
+        "name": "Hanging Gardens",
+        "isWonder": true,
+        "cost": 460,
+        "uniques": [
+            "+[15]% growth in all cities",
+            "[10]% Food is carried over after population increases [in this city]",
+            "Must be on [River]"],
+		"requiredTech": "Sacred Culture I",
+        "quote": "'The ascent to the highest story is by stairs, and at their side are water engines, by means of which persons, appointed expressly for the purpose, are continually employed in raising water from the Euphrates into the garden.' –Strabo"
+    },
+    {
+        "name": "Kilwa Kisiwani",
+        "isWonder": true,
+        "cost": 1680,
+        "uniques": [
+            "[3] free [Great Merchant] units appear",
+            "Food and Culture from Friendly City-States are increased by 50%",
+            "Must be next to [Coast]"],
+		"requiredTech": "Propaganda IV",
+        "quote": "'Kilwa is one of the most beautifully built cities in the world; the houses there are entirely made of wood, their rooftops out of rope grass, and it rains with great vigour.' –Ibn Battuta"
+    },
+    {
+        "name": "Oracle",
+        "isWonder": true,
+        "cost": 120,
+        "culture": 2,
+		"requiredTech": "Patriot II",
+        "greatPersonPoints": {"production": 1,"culture": 1,"gold": 1,"science": 1},
+		"uniques": [
+            "+[25]% great person generation in this city",
+            "Must be on [Hill]"],
+        "quote": "'I sprang upon the swift ship in the form of a dolphin, pray to me as Apollo Delphinius; also the altar itself shall be called Delphinius and overlooked forever.' –Homer"
+    },
+    {
+        "name": "Potala Palace",
+        "isWonder": true,
+        "cost": 1050,
+        "culture": 5,
+        "uniques": [
+            "Must be on [Hill]"],
+		"requiredTech": "Propaganda II",
+        "quote": "'The first time I stepped onto the rooftop of the Potala Palace, I felt, as never before or since, as if I were stepping onto the rooftop of my being; onto some dimension of consciousness that I'd never visited before.' –Pico Iyer"
+    },
+    {
+        "name": "Prora",
+		"cost": 2240,
+        "culture": 1,
+        "happiness": 2,
+        "greatPersonPoints": {"gold": 2},
+        "isWonder": true,
+		"uniques": [
+            "[+1 Happiness] per [2] social policies adopted",
+            "Free Social Policy"],
+		"requiredTech": "New World Order III",
+        "quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.'  - A.N. Whitehead"
+    },
+    {
+        "name": "Burial Tomb",
+		"isWonder": true,
+        "culture": 2,
+		"cost": 60,
+        "happiness": 2,
+        "specialistSlots": {"Entertainment Staff": 1},
+        "hurryCostModifier": 25,
+		"uniques": 
+            ["Doubles Gold given to enemy if city is captured"],
+		"requiredTech": "Patriot I",
+    },
+
+
+	//Army
+    
+    {
+        "name": "Encampment",
+        "cost": 54,
+        "production": 2,
+        "gold": 1,
+        "uniques": [
+            "Cost increases by [10] per owned city",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Army",
+    },
+
+    //
+
+    {
+        "name": "Harbor",
+        "cost": 54,
+        "gold": 4,
+        "food": 1,
+        "uniques": [
+            "[+1 Gold] from [Water resource] tiles in this city",
+            "Must be next to [Coast]","Connects trade routes over water",
+            "Cost increases by [10] per owned city",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Navy",
+    },
+    {
+        "name": "Royal Navy Dockyard",
+        "replaces": "Harbor",
+        "uniqueTo": "England",
+        "cost": 27,
+        "gold": 5,
+        "food": 1,
+        "uniques": [
+            "[+1 Gold] from [Water resource] tiles in this city",
+            "Connects trade routes over water",
+            "Must be next to [Coast]",
+            "Cost increases by [5] per owned city",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Navy",
+    },
+
+    //
+
+
+    {
+        "name": "Aerodrome",
+        "cost": 54,
+        "uniques": [
+            "Cost increases by [10] per owned city",
+            "Enables construction of Aircraft",
+            "Unsellable",
+            "Cannot be purchased"],
+        "requiredTech": "Army",
+    },
+
+    //
+
+    {
+        "name": "Mughal Fort",
+		"replaces": "Castle",
+		"isWonder": true,
+        "cityStrength": 7,
+        "cityHealth": 25,
+        "culture": 2,
+		"cost": 900,
+        "hurryCostModifier": 25,
+		"requiredTech": "Fortress Theory I",
+    },
+    {
+        "name": "Jebel Barkal",
+        "isWonder": true,
+        "cost": 850,
+        "culture": 8,
+        "uniques": ["Provides [2] [Iron]","Must be on [Hill]"],
+		"requiredTech": "Civil Defence Theory V",
+        "quote": "'At the south-west corner a large perpendicular mass of sandstone has become separated by a deep fissure from the body of the mountain … it has all the appearance of a colossal statue.' –E. A. Wallis Budge"
+    },
+    {
+        "name": "Statue of Zeus",
+        "isWonder": true,
+        "cost": 400,
+        "gold": 3,
+		"requiredTech": "Improved Defence III",
+		"uniques": ["+50% Production when constructing armor units"],
+	//"[3] free [Archer] units appear","[3] free [Spearman] units appear"
+        "quote": "'Upon the head of the god was an olive crown; in his right hand he bore a winged figure of Victory.' –Samuel Augustus Mitchell"
+    },
+	{
+        "name": "Great Lighthouse",
+        "isWonder": true,
+        "cost": 130,
+        "gold": 3,
+        "uniques": ["+2 movement for all naval units","Must be next to [Coast]"],
+		"requiredTech": "Basic Defence II",
+        "quote": "'This lighthouse was the cynosure of all eyes.' –Henry David Thoreau"
+    },
+    {
+        "name": "Terracotta Army",
+        "isWonder": true,
+        "uniqueTo": "Japan",
+        "cost": 380,
+        "uniques": ["New military units start with [15] Experience"],
+		"requiredTech": "Improved Defence I",
+        "quote": "'There were seven wonders in the world, and the discovery of the Terracotta Army, we may say, is the eighth miracle of the world.' –Jacques Chirac"
+    },
+    {
+        "name": "Pentagon",
+		"cost": 1440,
+        "isWonder": true,
+        "uniqueTo": "America",
+        "culture": 3,
+        "greatPersonPoints": {"science": 2},
+        "uniques": ["Gold cost of upgrading military units reduced by 33%"],
+        "requiredTech": "Fortress Theory V",
+        "quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.'  - Dwight D. Eisenhower"
+    },
+	{
+        "name": "Kremlin",
+		"cost": 2100,
+        "culture": 1,
+        "isWonder": true,
+        "uniqueTo": "Soviet Union",
+        "greatPersonPoints": {"production": 3},
+        "uniques": ["+[30]% production when building [land units] in this city","Free Social Policy"],
+        "requiredTech": "Fortress Theory III",
+        "quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.'   –- The Prophet Muhammed"
+    },
+    {
+        "name": "Neuschwanstein",
+		"cost": 1575,
+        "happiness": 2,
+        "culture": 4,
+        "gold": 6,
+        "greatPersonPoints": {"gold": 1},
+        "isWonder": true,
+        "uniqueTo": "Germany",
+        "uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
+            "Must have an owned mountain within 2 tiles"],
+        "requiredTech": "Civil Defence Theory III",
+        "quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.'  - King Ludwig II of Bavaria"
+    },
+	{
+        "name": "Brandenburg Gate",
+		"cost": 360,
+        "culture": 3,
+        "xpForNewUnits": 15,
+        "greatPersonPoints": {"science": 2},
+        "isWonder": true,
+        "uniqueTo": "Germany",
+        "uniques": ["Free [Great General] appears"],
+        "requiredTech": "Improved Defence I",
+        "quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.'  - Horace"
+    },
+	{
+        "name": "Red Fort",
+		"cost": 540,
+        "culture": 1,
+        "cityHealth": 12,
+        "isWonder": true,
+        "greatPersonPoints": {"production": 1},
+        "uniques": ["[+25]% City Strength from defensive buildings"],
+        "requiredTech": "Improved Defence III",
+        "quote": "'When we build, let us think that we build forever.'   –- John Ruskin"
+    },
+	{
+        "name": "Himeji Castle",
+		"cost": 500,
+        "culture": 3,
+        "isWonder": true,
+        "uniqueTo": "Japan",
+        "greatPersonPoints": {"production": 2},
+        "uniques": ["+15% combat strength for units fighting in friendly territory"],
+        "requiredTech": "Improved Defence I",
+        "quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.'  - Yamamoto Tsunetomo"
+    },
+	{
+        "name": "City Health I",
+        "cost": 50,
+        "hurryCostModifier": 25,
+		"cityHealth": 15,
+        "requiredTech": "Basic Defence I"
+    },
+	{
+        "name": "City Strength I",
+        "cost": 50,
+        "hurryCostModifier": 25,
+		"cityStrength": 5,
+        "requiredTech": "Basic Defence I"
+    },
+	{
+        "name": "Castle",
+		"cost": 200,
+        "cityStrength": 10,
+        "cityHealth": 25,
+        "hurryCostModifier": 25,
+		"isNationalWonder": true,
+        "requiredTech": "Basic Defence I"
+    },
+	{
+        "name": "City Walls",
+		"cost": 150,
+        "cityHealth": 55,
+        "hurryCostModifier": 25,
+        "requiredTech": "Basic Defence II"
+    },
+	{
+        "name": "Great Wall",
+		"cost": 350,
+        "culture": 3,
+        "greatPersonPoints": {"production": 1},
+        "isWonder": true,
+        "providesFreeBuilding":  "City Walls",
+        "uniques": ["Worker construction increased 25%"],
+        "requiredTech": "Basic Defence II",
+        "quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.'  - Sun Tzu"
+    },
+	{
+        "name": "Barracks",
+		"cost": 250,
+        "xpForNewUnits": 15,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Basic Defence III"
+    },
+	{
+        "name": "Elite Training Center",
+		"cost": 250,
+		"isNationalWonder": true,
+        "xpForNewUnits": 25,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Basic Defence III"
+    },
+	{
+        "name": "Field Hospital",
+		"cost": 250,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+		"happiness": 3,
+        "requiredTech": "Basic Defence III"
+    },
+	{
+        "name": "Krepost",
+		"cost": 230,
+        "replaces": "Barracks",
+        "uniqueTo": "Soviet Union",
+        "xpForNewUnits": 20,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": ["Culture and Gold costs of acquiring new tiles reduced by 25% in this city"],
+        "requiredTech": "Basic Defence III"
+    },
+	{
+        "name": "Courthouse",
+		"cost": 700,
+        "maintenance": 4,
+        "hurryCostModifier": 25,
+        "uniques": ["Remove extra unhappiness from annexed cities", "Can only be built [in annexed cities]"],
+        "requiredTech": "Civil Defence Theory II",
+    },
+	{
+        "name": "Armory",
+		"cost": 500,
+        "xpForNewUnits": 15,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredBuilding": "Barracks",
+        "requiredTech": "Improved Defence III"
+    },
+	{
+        "name": "Arsenal",
+        "cost": 800,
+        "cityStrength": 15,
+        "maintenance": 3,
+        "cityHealth": 75,
+        "hurryCostModifier": 25,
+        "isWonder": true,
+        "requiredTech": "Civil Defence Theory IV",
+    },
+	{
+        "name": "Military Base",
+		"xpForNewUnits": 15,
+        "cost": 700,
+        "maintenance": 5,
+        "hurryCostModifier": 25,
+        "requiredBuilding": "Armory",
+        "requiredTech": "Civil Defence Theory III"
+    },
+	{
+        "name": "Military Academy",
+		"cost": 1500,
+        "xpForNewUnits": 15,
+        "hurryCostModifier": 25,
+        "maintenance": 3,
+        "requiredBuilding": "Military Base",
+        "requiredTech": "Fortress Theory III",
+    },
+	{
+        "name": "Karl-Gerat",
+		"uniqueTo": "Germany",
+		"uniques": ["Free [Karl-Gerat] appears"],
+        "cost": 3000,
+		"requiredResource": "Iron",
+        "requiredTech": "Steel Beast V",
+		"isWonder": true
+    },
+	{
+        "name": "Training",
+        "cost": 900,
+        "uniques": ["Free [Great General] appears","All newly-trained [military units] units in this city receive the [Training] promotion"],
+        "hurryCostModifier": 25,
+		"isWonder": true
+        "requiredTech": "Civil Defence Theory II"
+    },
+	{
+        "name": "Defence Improvement",
+        "cost": 1500,
+        "hurryCostModifier": 25,
+		"uniques": ["All newly-trained [military units] units in this city receive the [Defence Improvement] promotion"]
+        "requiredTech": "Fortress Theory V"
+    },
+	{
+        "name": "City Health II",
+        "cost": 450,
+        "hurryCostModifier": 25,
+		"cityHealth": 30,
+		"requiredBuilding": "City Health I",
+        "requiredTech": "Improved Defence II"
+    },
+	{
+        "name": "City Strength II",
+        "cost": 450,
+        "hurryCostModifier": 25,
+		"cityStrength": 10,
+		"requiredBuilding": "City Strength I",
+        "requiredTech": "Improved Defence II"
+    },
+	{
+        "name": "City Health III",
+        "cost": 600,
+        "hurryCostModifier": 25,
+		"cityHealth": 55,
+		"requiredBuilding": "City Health II",
+        "requiredTech": "Civil Defence Theory I"
+    },
+	{
+        "name": "City Strength III",
+        "cost": 600,
+        "hurryCostModifier": 25,
+		"cityStrength": 15,
+		"requiredBuilding": "City Strength II",
+        "requiredTech": "Civil Defence Theory I"
+    },
+	{
+        "name": "City Health IV",
+        "cost": 900,
+        "hurryCostModifier": 25,
+		"cityHealth": 100,
+		"requiredBuilding": "City Health III",
+        "requiredTech": "Fortress Theory II"
+    },
+	{
+        "name": "City Strength IV",
+        "cost": 900,
+        "hurryCostModifier": 25,
+		"cityStrength": 20,
+		"requiredBuilding": "City Strength III",
+        "requiredTech": "Fortress Theory II"
+    },
+	{
+        "name": "City Health V",
+        "cost": 1200,
+        "hurryCostModifier": 25,
+		"cityHealth": 205,
+		"requiredBuilding": "City Health IV",
+        "requiredTech": "Fortress Theory IV"
+    },
+	{
+        "name": "City Strength V",
+        "cost": 1200,
+        "hurryCostModifier": 25,
+		"cityStrength": 25,
+		"requiredBuilding": "City Strength IV",
+        "requiredTech": "Fortress Theory IV"
+    },
+	{
+        "name": "Counter Missile",
+        "cost": 1500,
+        "hurryCostModifier": 25,
+		"cityStrength": 75,
+        "requiredTech": "Fortress Theory V"
+    },
+]
